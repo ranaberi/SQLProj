@@ -58,6 +58,7 @@
     <Folder Include="Properties" />
     <Folder Include="DBO" />
     <Folder Include="DBO\Tables" />
+    <Folder Include="PublishLocations" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="DBO\Tables\Person.sql" />
@@ -65,5 +66,8 @@
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SQLProj.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PublishLocations\LocalDemoDB.publish.publish.xml" />
   </ItemGroup>
 </Project>
