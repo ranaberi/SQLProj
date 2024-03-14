@@ -59,10 +59,12 @@
     <Folder Include="DBO" />
     <Folder Include="DBO\Tables" />
     <Folder Include="PublishLocations" />
+    <Folder Include="DBO\views" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="DBO\Tables\Person.sql" />
     <Build Include="DBO\Tables\Address.sql" />
+    <Build Include="DBO\views\FullPerson.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SQLProj.refactorlog" />
